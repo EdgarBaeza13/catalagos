@@ -1,0 +1,49 @@
+COPY usuarios (id_usuario, nombre_usuario, apellido_musuario,pusuario, telefono_usuario, direccion_usuario, contraseña) FROM STDIN;
+
+COPY clientes (id_cliente, nombre_orazonsocial, direccion, telefono, correo_electronico, rfc) FROM STDIN;
+
+COPY ventas (id_ventas, id_usuario_det, id_clientes_det, fecha_venta, folio_documento) FROM STDIN;
+
+COPY categorias (id_categoria, nombre_categoria) FROM STDIN;
+
+COPY	unidades (id_unidad, nombre_unidad, descripcion_unidad, nota_unidad, fecha_inicio_vigencia, fecha_fin_vigencia, simbolo) FROM STDIN;
+
+COPY productos (id_producto, id_categoria_det, id_unidad_det, nombre_producto, stock, precio_compra, precio_venta, fecha_vencimiento_p, fecha_inicio_p, iva_traslado, ieps_traslado) FROM STDIN;
+
+COPY detalle_de_ventas (id_detalle_venta, id_venta_det, id_producto_det, cantidad_de_compra, precio_unitario) FROM STDIN;
+
+COPY regimenes_fiscales (id_regimen_fiscal, descripcion_rf, tipo_fisica, tipo_moral, fecha_inicio_vigencia, fecha_fin_vigencia) FROM STDIN;
+
+COPY paises (id_pais, descripcion, formato_codigo_postal, formato_registro_idtributaria, validacion_registro_idtributaria, agrupaciones) FROM STDIN;
+
+COPY codigos_postales (id_codigo_postal, id_pais_det, estado, municipio, localidad) FROM STDIN;
+
+COPY usos_cfdi (id_usocfdi, descripcion_cfdi, tipo_fisica, tipo_moral, fecha_inicio_vigencia_cfdi, fecha_fin_vigencia_cfdi) FROM STDIN;
+
+COPY tipos_relaciones (id_tipo_relacion, id_usocfdi_det, descripcion_r, fecha_inicio_vigencia_r, fecha_fin_vigencia_r) FROM STDIN;
+
+COPY tipos_factores (tipo_factor) FROM STDIN;
+
+COPY impuestos (id_impuesto, descripcion_imp, retencion_imp, traslado_imp, local_ofederal, entidad_aplicada, tipo_factor_det) FROM STDIN;
+
+COPY tasa_ocuotas (id_rango_ofijo, rango_ofijo, valor_minimo, valor_maximo, impuesto, facor, traslado, retencion, fecha_inicio_vigencia_tc, fecha_fin_vigencia_tc, id_impuesto_det) FROM STDIN;
+
+COPY monedas (id_moneda, descripcion_moneda, decimales, porcentaje_variacion) FROM STDIN;
+
+COPY impuestos (id_impuesto, descripcion_imp, retencion_imp, traslado_imp, local_ofederal, entidad_aplicada, tipo_factor_det) FROM STDIN;
+
+COPY formas_pagos (id_forma_pago, id_metodo_pago_det, descripcion_fp, bancarizado, numero_operacion, rfc_emisor_cta_ordenante, cuenta_ordenante, patron_cta_ordenante, rfc_emisor_cta_beneficiario_ cta_beneficiaria, patron_cta_beneficiaria, tipo_cadena, nombre_emisor_ctaordenante_extranjero, fecha_fin_vigencia_fp);
+
+COPY tipos_comprobantes (id_tipo_comprobante, descripcion_comp, valor_maximo_comp, fecha_inicio_vigencia_comp, fecha_fin_vigencia_comp, id_forma_pago_det) FROM STDIN;
+
+COPY facturas (id_factura, id_tipo_relacion_det, tipo_factor_det, fecha_factura, id_cliente_det, id_tipo_comprobante_det, id_regimen_fiscal_det, id_pais_det) FROM STDIN;
+
+COPY detalles_facturas (id_detalle_factura, id_factura_det, id_producto_det, cantidad) FROM STDIN;
+
+COPY aduanas (id_aduana, id_detalle_factura_det, descripcion_aduana) FROM STDIN;
+
+COPY patentes_aduanales (id_patente, fecha_inicio_vigencia_pad, fecha_fin_vigencia_pad, id_aduana_det) FROM STDIN;
+
+COPY numeros_pedimentos_aduanales (id_pedimento_patente, id_patente_det, ejercicio, cantidad_npa, fecha_inicio_vigencia_npa, fecha_fin_vigencia_npa) FROM STDIN;
+
+
