@@ -1,0 +1,2 @@
+PUE	Pago en una sola exhibición	1/1/2017	///
+PPD	Pago en parcialidades o diferido	1/1/2017	///

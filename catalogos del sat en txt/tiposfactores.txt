@@ -1,0 +1,3 @@
+Tasa
+Cuota
+Exento

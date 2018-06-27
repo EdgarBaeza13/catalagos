@@ -1,0 +1,3 @@
+1	ISR	Si	No	Federal
+2	IVA	Si	Si	Federal
+3	IEPS	Si	Si	Federal

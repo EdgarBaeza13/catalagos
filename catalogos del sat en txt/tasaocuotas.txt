@@ -1,0 +1,18 @@
+Fijo		0	IVA	Tasa	Sí	No	1/1/2017	///
+Fijo		0.16	IVA	Tasa	Sí	No	1/1/2017	///
+Rango	0	0.16	IVA	Tasa	No	Sí	1/1/2017	///
+Fijo		0.265	IEPS	Tasa	Sí	Sí	1/1/2017	///
+Fijo		0.3	IEPS	Tasa	Sí	Sí	1/1/2017	///
+Fijo		0.53	IEPS	Tasa	Sí	Sí	1/1/2017	///
+Fijo		0.5	IEPS	Tasa	Sí	Sí	1/1/2017	///
+Fijo		1.6	IEPS	Tasa	Sí	Sí	1/1/2017	///
+Fijo		0.304	IEPS	Tasa	Sí	Sí	1/1/2017	///
+Fijo		0.25	IEPS	Tasa	Sí	Sí	1/1/2017	///
+Fijo		0.09	IEPS	Tasa	Sí	Sí	1/1/2017	///
+Fijo		0.08	IEPS	Tasa	Sí	Sí	1/1/2017	///
+Fijo		0.07	IEPS	Tasa	Sí	Sí	1/1/2017	///
+Fijo		0.06	IEPS	Tasa	Sí	Sí	1/1/2017	///
+Fijo		0.03	IEPS	Tasa	Sí	No	1/1/2017	///
+Fijo		0	IEPS	Tasa	Sí	No	1/1/2017	///
+Rango	0	43.77	IEPS	Cuota	Sí	Sí	1/1/2017	///
+Rango	0	0.35	ISR	Tasa	No	Sí	1/1/2017	///

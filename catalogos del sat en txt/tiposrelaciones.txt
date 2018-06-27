@@ -1,0 +1,7 @@
+1	Nota de crédito de los documentos relacionados	1/1/2017	//
+2	Nota de débito de los documentos relacionados	1/1/2017	//
+3	Devolución de mercancía sobre facturas o traslados previos	1/1/2017	//
+4	Sustitución de los CFDI previos	1/1/2017	//
+5	Traslados de mercancias facturados previamente	1/1/2017	//
+6	Factura generada por los traslados previos	1/1/2017	//
+7	CFDI por aplicación de anticipo	27/7/2017	//
